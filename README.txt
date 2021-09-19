@@ -19,7 +19,7 @@ like "-script" is an example of incorrect use.
 The parser only needs to handle up to 5 of these key-value pairs, so this is an
 example of using all five arguments 'slots':
 
-  our_app --log a.og --verbose high --script a.s --debug true --format json
+  our_app --log l.txt --verbose 5 --script use1.t --debug true --format JSON
 
 Any other argument or formatting does not parse, and should be easy to handle
 for the application.
